@@ -7,6 +7,13 @@ class Home extends BaseController
     public function index()
     {
         
+        
+        return view('dashboard');
+    }
+
+    public function datadiri()
+    {
+        
         $data = [
             'title' => 'Data Diri',
             'nama' => 'Khamdanu Syakir',
